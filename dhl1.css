@@ -1,0 +1,45 @@
+.varbar{
+    position: fixed;
+    width: 100%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display:flex;
+    justify-content: space-between;
+    padding:20px;
+    max-height: 20%;
+    
+      }
+
+    .sidebar{
+    top: 11%;
+   position: fixed;
+    width:10%;
+    border:1px solid black;
+    box-sizing:border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    justify-content:start;
+    padding:10px;
+    height: 80%;
+
+}
+
+
+.itme{
+    width: 50px;
+    height:50px;
+    margin:10px;
+    border:1px solid blue;
+}
+
+.left{
+    border: 1px solid red;
+    width: 20%;
+    
+}
+
+.right{
+    border:1px solid red;
+    width: 10%;
+}
